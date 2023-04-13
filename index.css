@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#capture-btn {
+  padding: 8px;
+  border: none;
+  background-color: gray;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+#capture-btn:hover {
+  opacity: 0.8;
+}
